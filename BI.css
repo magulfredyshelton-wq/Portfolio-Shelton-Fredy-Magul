@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: grey;
+    color: grey;
+    font-size: 16px;
+    overflow: hidden;
+}
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: grey;
+    
+}
+.BI {
+    align-items: flex-start;
+    justify-content: center;  
+    background: linear-gradient(0deg, rgba(237, 252, 125, 0.584) 1%, rgb(75, 163, 141), rgba(237, 252, 125, 0.584) 99%); 
+    color: rgb(21, 21, 21);
+    border-radius: 20px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    padding: 20px
+    
+}
+.topo{ 
+    display: flex;
+    gap: 20px;
+    width: 800px;
+    position: fixed;
+    top: 165px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.topo .titulo {
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bandeira img {
+    width: 50px;
+    height: 35px;
+}
+.emblema img {
+    width: 50px;
+    height: 45px;
+    border-radius: 60px;
+}
+.foto img {
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+    top: 80px;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top: 50px;
+}
+.segundo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top: 70px;
+}
+.foto-2 img {
+    width: 80px;
+    height: 110px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+    top: 110px;
+    opacity: 0.2;
+}
+strong{
+    font-size: 15px;
+}
+p{
+    font-size: 17px;
+}
+p{
+    cursor: pointer;
+    position: relative;
+    padding: 5px 0;
+}
+p:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #06410d;
+    transition: width 0.2s ease-in-out;
+}
+p:hover:after{
+    width: 80%;
+}

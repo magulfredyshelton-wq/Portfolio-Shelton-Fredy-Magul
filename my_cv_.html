@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .personal-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .info-item {
+            text-align: center;
+        }
+
+        .info-item strong {
+            display: block;
+            color: #2c3e50;
+            font-size: 0.9em;
+        }
+
+        section {
+            padding: 25px;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #34495e;
+            margin: 15px 0 10px 0;
+        }
+
+        .job-title, .degree-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .skill-category h3 {
+            margin-top: 0;
+        }
+
+        .references {
+            text-align: center;
+            font-style: italic;
+            color: #7f8c8d;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CURRICULUM VITAE</h1>
+        </header>
+
+        <div class="personal-info">
+            <div class="info-item">
+                <strong>Name:</strong> Shelton Fredy Magul
+            </div>
+            <div class="info-item">
+                <strong>Phone:</strong> +258 849294699
+            </div>
+            <div class="info-item">
+                <strong>Email:</strong> magulfredyshelton@gmail.com
+            </div>
+            <div class="info-item">
+                <strong>Location:</strong> Maputo/Mocambique
+            </div>
+        </div>
+
+        <section id="education">
+            <h2>EDUCACAO</h2>
+            <div class="education-item">
+                <div class="degree-title">Eletricidade Industrial</div>
+                <div class="institution">Instituto de Transportes e Comunicação, Maputo/Mocambique</div>
+                <ul>
+                    <li>1 ano de formacao em Eletricidade Industrial (2024-2025)</li>
+                </ul>
+            </div>
+            <div class="education-item">
+                <div class="degree-title">Tecnico de Suporte Informatico</div>
+                <div class="institution">Instituto de Transportes e Comunicação, Maputo/Mocambique</div>
+                 <ul>
+                    <li>1 ano de formacao em Eletricidade Industrial (2025-Presente)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>SKILLS</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Cisco Packet Tracer</li>
+                    </ul>
+                </div>
+ 
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Ingles: 3&deg;nivel</li>
+                        <li>Portugues: Fluente</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="references">
+            <p>Felicio Ernesto Magul</p>
+        </div>
+    </div>
+</body>
+</html>
